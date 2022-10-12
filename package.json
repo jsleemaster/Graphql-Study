@@ -1,0 +1,28 @@
+{
+  "name": "Graphql-Study",
+  "version": "1.0.0",
+  "description": "Grahql 기초 공부",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,json,graphql"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsleemaster/Graphql-Study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsleemaster/Graphql-Study/issues"
+  },
+  "homepage": "https://github.com/jsleemaster/Graphql-Study#readme",
+  "dependencies": {
+    "apollo-server": "^3.10.2",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
